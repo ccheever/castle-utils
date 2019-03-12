@@ -18,7 +18,7 @@ local function log(...)
             table.insert(out, serpent.line(obj))
         end
     end
-    print(table.concat(out), ", ")
+    print(table.concat(out, ", "))
 end
 
 return log
